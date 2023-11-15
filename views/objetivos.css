@@ -1,0 +1,70 @@
+table {
+        
+    border-collapse: collapse;
+    text-align: center; 
+  }
+  
+  thead th
+  {
+  background-color: #0D2496;
+  color: #fff;
+  }
+  
+  th {
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .principal{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .secundario{
+    margin: 0 auto;
+  }   
+  
+  td.general{
+    background-color:#778AE7;
+  }
+
+  td.calendario{
+    background-color: #77E7B2;
+  }
+
+  tr.especifico{
+    font-size: 13px;     
+    font-weight:normal;     
+    padding: 8px;     
+    color: #17202A;
+  }
+  tab{float: left;}
+        .tab-2{margin-left: 50px;}
+        .tab-2 input{display: block;margin-bottom: 10px;}
+
+#btn_general{
+    background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  #btn_general:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ 

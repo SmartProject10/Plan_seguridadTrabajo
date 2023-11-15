@@ -1,0 +1,32 @@
+table {
+    width: 800px;
+    height: 200px;
+    border-collapse: collapse;
+  }
+  
+  thead th
+  {
+  background-color: #0D2496;
+  color: #fff;
+  }
+  
+  th {
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .principal{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .secundario{
+    margin: 0 auto;
+  }
+  
